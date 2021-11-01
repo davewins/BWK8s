@@ -10,7 +10,7 @@ spec:
   - port: 8081
     targetPort: 8081
   selector:
-    app: greeting-app
+    app: green-greeting-app
 ---
 apiVersion: apps/v1
 kind: Deployment

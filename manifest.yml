@@ -1,0 +1,6 @@
+---
+applications:
+- memory: "512M"
+  timeout: "60"
+  name: "greeting"
+  path: "/home/parallels/EAR/greeting_1.0.0.ear"

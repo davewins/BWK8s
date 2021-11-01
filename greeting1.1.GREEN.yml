@@ -11,13 +11,13 @@ spec:
       maxUnavailable: 0
   selector:
     matchLabels:
-      app: greeting-app
+      app: green-greeting-app
       version: green
   template:
     metadata:
       name: green-greeting-app
       labels:
-        app: greeting-app
+        app: green-greeting-app
         version: green
     spec:
       containers:

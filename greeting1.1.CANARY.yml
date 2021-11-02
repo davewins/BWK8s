@@ -12,11 +12,13 @@ spec:
   selector:
     matchLabels:
       app: greeting-app
+      version: 1.1
   template:
     metadata:
       name: greeting-app
       labels:
         app: greeting-app
+        version: 1.1
     spec:
       containers:
         - name: greeting-app

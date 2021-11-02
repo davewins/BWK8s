@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: greeting-app
+  name: canary-greeting-app
 spec:
   replicas: 1
   strategy:
@@ -12,13 +12,13 @@ spec:
   selector:
     matchLabels:
       app: greeting-app
-      version: 1.1
+      version: v1.1
   template:
     metadata:
       name: greeting-app
       labels:
         app: greeting-app
-        version: 1.1
+        version: v1.1
     spec:
       containers:
         - name: greeting-app

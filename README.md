@@ -1,0 +1,1 @@
+# Manifest Samples for TIBCO BusinessWorks Container Edition for testing different deployment strategies
